@@ -1,0 +1,22 @@
+/* Asterisk wildcard selector to override default styles added by the browser. I watched the first videos from the Love Running project
+again to be sure I set up all correctly */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+/* Header */
+header {
+    background-color: lightsalmon;
+}
+
+/* Main content */
+main {
+    background-color: lightcyan;
+}
+
+/* footer */
+footer {
+    background-color: lightyellow;
+}
