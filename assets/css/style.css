@@ -3,10 +3,10 @@ again to be sure I set up all correctly */
 * {
     padding: 0;
     margin: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
-/*Gerneal styles*/
+/*General styles*/
 body {
     min-height: 100vh;
     display: flex;
@@ -16,6 +16,22 @@ body {
 /* Header */
 header {
     background-color: lightsalmon;
+}
+
+/* Nav bar*/
+
+#nav {
+    letter-spacing: 2px;
+    font-size: large;
+}
+#nav li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#nav a {
+    text-decoration: none;
 }
 
 /* Main content */
