@@ -6,6 +6,13 @@ again to be sure I set up all correctly */
     box-sizing:border-box;
 }
 
+/*Gerneal styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Header */
 header {
     background-color: lightsalmon;
@@ -14,6 +21,8 @@ header {
 /* Main content */
 main {
     background-color: lightcyan;
+    /*Main element takes up any surplus space to push footer down got it form the Love Running to remind myself to add that*/
+    flex: 1 0 auto;
 }
 
 /* footer */
