@@ -9,8 +9,10 @@ again to be sure I set up all correctly */
 /*General styles*/
 body {
     min-height: 100vh;
-    display: flex;
     flex-direction: column;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #252525;
 }
 
 /* Header */
@@ -22,8 +24,9 @@ header {
 
 #nav {
     letter-spacing: 2px;
-    font-size: large;
+    font-size: 110%;
 }
+
 #nav li {
     float: right;
     list-style-type: none;
