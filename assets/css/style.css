@@ -1,3 +1,6 @@
+/*Google fonts import THIS is not the final font as Marc*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser. I watched the first videos from the Love Running project
 again to be sure I set up all correctly */
 * {
@@ -9,15 +12,21 @@ again to be sure I set up all correctly */
 /*General styles*/
 body {
     min-height: 100vh;
+    display: flex;
     flex-direction: column;
-    font-family: Lato, sans-serif;
+    /*Generic project styles*/
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
-    color: #252525;
+    color: rgb(18, 50, 11);
 }
 
 /* Header */
 header {
-    background-color: lightsalmon;
+    background-color: rgb(185, 232, 185);
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Nav bar*/
@@ -44,7 +53,7 @@ main {
     flex: 1 0 auto;
 }
 
-/* footer */
+/* Footer */
 footer {
     background-color: lightyellow;
 }
